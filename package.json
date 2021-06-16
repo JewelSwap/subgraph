@@ -1,7 +1,7 @@
 {
   "name": "apeswap-subgraph",
   "version": "1.0.0",
-  "repository": "https://github.com/ApeSwapFinance/apeswap-subgraph",
+  "repository": "https://github.com/jewelswap/subgraph",
   "license": "GPL-3.0-or-later",
   "scripts": {
     "codegen": "graph codegen --output-dir src/types/",
@@ -22,5 +22,8 @@
     "eslint-config-prettier": "^7.1.0",
     "prettier": "^2.2.1",
     "typescript": "^4.1.3"
-  }
+  },
+  "main": "index.js",
+  "author": "jeweldefi@gmail.com",
+  "private": false
 }
